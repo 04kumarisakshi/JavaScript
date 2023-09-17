@@ -1,0 +1,35 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+#main{
+    background-color: black;
+    color: white;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+   
+}
+#main h1{
+   font-size:120px;
+    justify-content: center;
+    text-align: center;
+    margin-top: 300px;
+    padding: 20px;
+    cursor: pointer;
+}
+#main h1:hover{
+    color:rgba(52, 161, 208, 0.751);
+    transition: 1s;
+}
+#cursor {
+    background-color: rgba(65, 129, 197, 0.683);
+    position:fixed;
+    height: 150px;
+    width: 150px;
+    border-radius: 100px;
+    filter: blur(40px);
+   
+}
